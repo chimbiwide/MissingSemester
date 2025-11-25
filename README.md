@@ -1,32 +1,15 @@
+# MissingSemster
 
-# Lecture One: Course Overview & The Shell
+---
 
+Includes my notes and solutions to the exercises.
 
-Aside from the common commands used to navigate the file system such as `cd` and `ls`, there are a lot of far more interesting features of the Linux shell
+This mosly serves as a documentations for myself(VIM configurations).
 
-#### `man`
-access the manual of a specified program
-e.g. `man ls`
-
-### Connecting Programs
-
-#### `<` and `>`
-
-they rewire the input and output streams of a program to a file respectively
-
-e.g. `echo hello > hello.txt`
-
-#### `>>` appends to a file
-
-#### `|` makes the output of one file the input of another
-
-### The Super User (`sudo`)
-
-one really interesting directory would the `/sys`
-where you can have access to the kernel and can make changes that effect you entire computer
-
-e.g. `/sys/class/backlight`
-
-or 
-`/sys/class/thermal/thermal_zone0/temp`
-which gives you the temp of the cpu in milidegress of celcius
+System Specifications: 
+```
+System:
+  Kernel: 6.8.0-88-generic arch: x86_64 bits: 64 compiler: gcc v: 13.3.0 clocksource: tsc
+  Desktop: Cinnamon v: 6.4.8 tk: GTK v: 3.24.41 wm: Muffin v: 6.4.1 vt: 7 dm: LightDM v: 1.30.0
+    Distro: Linux Mint 22.2 Zara base: Ubuntu 24.04 noble
+```
