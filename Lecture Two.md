@@ -64,3 +64,21 @@ capture() {
 capture
 ```
 
+Q4:
+```bash
+find . -name "*.html" | xargs zip html.zip
+```
+
+xargs -- convert STDIN to arguments
+
+Q5:
+
+list newest file
+```bash
+find . -type f -printf '%T+ %p\n' | sort -r | head -1
+```
+list all files by recency
+```bash
+find . -type f -printf '%T+ %p\n' | sort -r
+```
+
