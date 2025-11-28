@@ -4,7 +4,11 @@
 
 Includes my notes and solutions to the exercises.
 
-This mosly serves as a documentations for myself(VIM configurations).
+This mosly serves as a documentations for myself(my neovim configurations).
+
+I used the kick_start `init.lua` file and modified it so that I can do `<leader>t`  to open a new terminal
+
+---
 
 System Specifications: 
 ```
