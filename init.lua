@@ -83,6 +83,12 @@ vim.o.confirm = true
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
+-- tab configurations
+vim.o.tabstop = 4
+vim.o.shiftwidth = 4
+vim.o.expandtab = true
+vim.o.softtabstop = 4
+
 -- Clear highlights on search when pressing <Esc> in normal mode
 --  See `:help hlsearch`
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
